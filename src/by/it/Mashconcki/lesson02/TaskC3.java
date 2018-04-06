@@ -29,6 +29,26 @@ package by.it.Mashconcki.lesson02;
 
 
 */
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.Scanner;
 class TaskC3 {
+    public static void main(String[] args) {
+        System.out.println("Ввод:");
+        Scanner sc=new Scanner(System.in);
+        int weight=sc.nextInt();
+       // sc.close();
+        System.out.println("Вывод:");
+        System.out.println(getWeight (88));
+       }
+
+    public static double getWeight(int x){
+        double a=x/9.81;
+        double y=a*3.86;
+        double newDouble = new BigDecimal(y).setScale(2, RoundingMode.UP).doubleValue();
+        return newDouble;
+
+    }
+
 
 }

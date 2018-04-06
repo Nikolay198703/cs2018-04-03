@@ -13,13 +13,15 @@ import java.util.Scanner;
 class TaskC1 {
     public static void main(String[] args) {
 Scanner sc=new Scanner(System.in);
-System.out.println("Ввод:");
 int a=sc.nextInt();
-int b=sc.nextInt();
-sc.close();
+        int b=sc.nextInt();
+//System.out.println("Ввод:");
+//System.out.println(a+" "+b);
+
+//sc.close();
   int result=a+b;
-System.out.println("Вывод:");
-System.out.print("Sum="+result);
+//System.out.println("Вывод:");
+System.out.print("Sum = " +""+result);
     }
 
 
