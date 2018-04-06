@@ -16,5 +16,15 @@ Scanner sc=new Scanner(System.in);
 
  */
 
+import java.util.Scanner;
+
 class TaskB1 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Введите a");
+        int a=sc.nextInt();
+        sc.close();
+        int result=a*a;
+        System.out.print(result);
+    }
 }
