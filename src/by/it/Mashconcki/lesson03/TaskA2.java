@@ -1,5 +1,7 @@
 package by.it.Mashconcki.lesson03;
 
+import static com.sun.tools.doclint.Entity.ne;
+
 /*
 Lesson 03. Task A2. Стихотворение
 
@@ -21,5 +23,17 @@ Lesson 03. Task A2. Стихотворение
 Для автоматической проверки откройте и запустите класс Testing
 */
 class TaskA2 {
+    public static void main(String[] args) {
+        String a="Я узнал что у меня";
+        String b="Есть огромная родня";
+        String c="И тропинка, и лесок";
+        String f="В поле каждый колосок";
+        String d="Речка, небо надо мною-";
+        String e="Это всё моё, родное!";
+        System.out.println("Мое любимое стихотворение:");
+        System.out.println(a\n+b\n+c\n+f\n+d\n+e\n);
+        }
 
-}
+    }
+
+
