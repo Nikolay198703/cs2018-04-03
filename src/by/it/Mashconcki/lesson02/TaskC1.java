@@ -19,9 +19,9 @@ int a=sc.nextInt();
 //System.out.println(a+" "+b);
 
 //sc.close();
-  int result=a+b;
+  int c=a+b;
 //System.out.println("Вывод:");
-System.out.print("Sum = " +""+result);
+System.out.print("Sum = " +c);
     }
 
 

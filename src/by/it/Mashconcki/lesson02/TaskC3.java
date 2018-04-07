@@ -39,7 +39,7 @@ class TaskC3 {
         int weight=sc.nextInt();
        // sc.close();
         System.out.println("Вывод:");
-        System.out.println(getWeight (88));
+        System.out.println(getWeight (weight));
        }
 
     public static double getWeight(int x){
