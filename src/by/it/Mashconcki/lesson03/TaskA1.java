@@ -37,21 +37,21 @@ import java.util.Scanner;
 
 class TaskA1 {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
-        int i=scanner.nextInt();
-        int j=scanner.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int i = scanner.nextInt();
+        int j = scanner.nextInt();
 
-        int sum=i+j;
-        int sub=i-j;
-        int mul=i*j;
-        int div=i/j;
-        int mod=i%j;
-        System.out.println(sum+" "+sub+" "+mul+" "+div+" "+mod );
-        double dsum=i+j;
-        double dsub=i-j;
-        double dmul=i*j;
-        double ddiv=i/j;
-        double dmod=i%j;
-        System.out.println(dsum+" "+dsub+" "+dmul+" "+ddiv+" "+dmod );
+        int sum = i + j;
+        int sub = i - j;
+        int mul = i * j;
+        int div = i / j;
+        int mod = i % j;
+        System.out.println(sum + " " + sub + " " + mul + " " + div + " " + mod);
+        double dsum = i + j;
+        double dsub = i - j;
+        double dmul = i * j;
+        double ddiv = 1.0*i / j;
+        double dmod = i % j;
+        System.out.println(dsum + " " + dsub + " " + dmul + " " + ddiv + " " + dmod);
     }
 }

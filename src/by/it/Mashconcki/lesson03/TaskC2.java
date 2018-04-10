@@ -1,4 +1,5 @@
 package by.it.Mashconcki.lesson03;
+
 /*
     Сумма цифр четырехзначного числа
 
@@ -21,15 +22,15 @@ package by.it.Mashconcki.lesson03;
 */
 public class TaskC2 {
 
-       public static int sumDigitsInNumber(int a){
-           return ((a%10)+((a%100)/10)+((a%1000)/100)+((a%10000)/1000));
+    public static int sumDigitsInNumber(int a) {
+        return ((a % 10) + ((a % 100) / 10) + ((a % 1000) / 100) + ((a % 10000) / 1000));
 
 
-}
+    }
 
 
-   public static void main(String[] args) {
-       System.out.println(sumDigitsInNumber(5467));
+    public static void main(String[] args) {
+        System.out.println(sumDigitsInNumber(5467));
     }
 
 }

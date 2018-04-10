@@ -32,35 +32,34 @@ Lesson 03. Task B2. Нужно написать программу, котора
 
 */
 class TaskB2 {
-    public static double dis(int x, int y, int z){
-        return y*y-4*x*z;
+    public static double dis(int x, int y, int z) {
+        return y * y - 4 * x * z;
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        double d=dis(a, b, c);
+        double d = dis(a, b, c);
 
         double x1, x2;
-        if (d>0) {
-            x1=(-b-Math.sqrt(d))/(2*a);
-            x2=(-b+Math.sqrt(d))/(2*a);
-            System.out.println(x1+" "+x2);
+        if (d > 0) {
+            x1 = (-b - Math.sqrt(d)) / (2 * a);
+            x2 = (-b + Math.sqrt(d)) / (2 * a);
+            System.out.println(x1 + " " + x2);
         }
-        if (d==0) { x1=-b/(2*a);
+        if (d == 0) {
+            x1 = -b / (2 * a);
 
-        System.out.println(x1);}
-        if (d<0){
+            System.out.println(x1);
+        }
+        if (d < 0) {
             System.out.println("Отрицательный дискриминант");
         }
 
 
-
-        }
-
-
-
-
-
     }
+
+
+}
