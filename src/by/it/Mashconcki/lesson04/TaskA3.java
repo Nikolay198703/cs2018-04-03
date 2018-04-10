@@ -32,7 +32,7 @@ public class TaskA3 {
         int c = scanner.nextInt();
         if (a == b && b == c) {
             System.out.println(a + "\t" + b + "\t" + c + "\t");
-            if (a == c) {
+            if (a == b) {
                 System.out.println(a + "\t" + b + "\t");
             }
             if (b == c) {
