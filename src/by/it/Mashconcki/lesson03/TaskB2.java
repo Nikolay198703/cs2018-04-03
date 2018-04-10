@@ -50,7 +50,7 @@ class TaskB2 {
             System.out.println(x1 + " " + x2);
         }
         if (d == 0) {
-            x1 = -b / (2 * a);
+            x1 = -b / (2.0 * a);//2.0 щзначает что число в формате double
 
             System.out.println(x1);
         }
