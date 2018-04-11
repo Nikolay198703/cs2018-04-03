@@ -38,7 +38,39 @@ package by.it.Mashconcki.lesson04;
 */
 
 
+import java.util.Scanner;
+
 public class TaskC1 {
+    public static void main(String[] args) {
+        System.out.println("Какую вы хотите зарплату в $$$?");
+        Scanner scanner = new Scanner((System.in));
+        int month = scanner.nextInt();
+        double s = month + month / 2;
+        double w = month;
+        double z = month * 0;
+        if (month <= 300 || month > 3000) {
+            System.out.println("Мы вам перезвоним!");
+
+        } else {
+            System.out.println("За месяц 0 начислено $" + z);
+            System.out.println("За январь начислено" + " " + "$" + s);
+            System.out.println("За февраль начислено" + " " + "$" + s);
+            System.out.println("За март начислено" + " " + "$" + s);
+            System.out.println("За апрель начислено" + " " + "$" + s);
+            System.out.println("За май начислено" + " " + "$" + s);
+            System.out.println("За июнь начислено" + "$" + w);
+            System.out.println("За июль начислено" + "$" + w);
+            System.out.println("За август начислено" + "$" + w);
+            System.out.println("За сентябрь начислено" + " " + "$" + s);
+            System.out.println("За октябрь начислено" + " " + "$" + s);
+            System.out.println("За ноябрь начислено" + " " + "$" + s);
+            System.out.println("За декабрь начислено" + " " + "$" + s);
+            System.out.println("За месяц 13 начислено $" + z);
+            System.out.println("За месяц 13 начислено $" + z);
+            //if (s == 666 || w == 666) break;
+
+        }
+    }
 
 
 }

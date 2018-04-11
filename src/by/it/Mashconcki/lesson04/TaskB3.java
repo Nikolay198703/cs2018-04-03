@@ -25,7 +25,18 @@ package by.it.Mashconcki.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner((System.in));
+        int a = scanner.nextInt();
+        int x = 1;
+
+        while (x <= a) {
+         System.out.print(x + ",");
+        }
+
+    }
 
 }
