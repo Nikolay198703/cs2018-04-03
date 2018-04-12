@@ -1,8 +1,4 @@
-package by.it._tasks_.lesson05;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+package by.it.Mashconcki.lesson05;
 
 /*
 Создайте список строк.

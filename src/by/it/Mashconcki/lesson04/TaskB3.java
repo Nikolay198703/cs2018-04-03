@@ -28,15 +28,23 @@ package by.it.Mashconcki.lesson04;
 import java.util.Scanner;
 
 public class TaskB3 {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner((System.in));
         int a = scanner.nextInt();
         int x = 1;
+        int sum = 0;
 
-        while (x <= a) {
-         System.out.print(x + ",");
+        for (x = 1; x < a; x++) {
+            sum = sum + x;
+            if (sum > a) break;
+            System.out.print(sum);
+
+            System.out.print(",");
         }
 
-    }
 
+    }
 }
+
+
