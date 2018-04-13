@@ -10,18 +10,34 @@ package by.it.Mashconcki.lesson05;
     Сначала тот, который для x%3, потом тот, который для x%2, потом последний.
 */
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class TaskC1 {
-    public static void main(String[] args) throws Exception
-    {
+    public static void main(String[] args) throws Exception {
+        ArrayList<Double> list = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
+        for (int i = 0; i < 20; i++) {
+            double a = scanner.nextInt();
+            list.add(a);
+        } //Double.parseDouble(String.valueOf(list));
+        for (int i = 0; i <= list.size(); ) {
+            if (list.get(i) % 3 == 0 && list.get(i) % 2 == 0 || list.get(i) % 3 == 0)
+                list.add((double) i);
+            else list.remove(i);
+            i++;
+        }
+        System.out.println(list);
+       // return list;
 
 
     }
+
 
     private static void printList(List<Integer> list) {
         for (Integer aList : list) System.out.println(aList);
     }
 
-
 }
+
