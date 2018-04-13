@@ -10,6 +10,24 @@ package by.it.Mashconcki.lesson05;
 */
 
 
+import java.util.ArrayList;
+
 public class TaskB1 {
+    public static void main(String[] args) {
+        ArrayList<String> list=new ArrayList<>();
+        list.add("мама");
+        list.add("мыла");
+        list.add("грязную");
+        list.add("раму");
+        list.add("летом");
+        int n=list.size();
+        System.out.println(n);
+        for (int i=0;i<=list.size();i++){
+            String s=list.get(i);
+            System.out.println(s);
+        }
+
+
+    }
 
 }

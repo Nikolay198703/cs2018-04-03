@@ -28,7 +28,7 @@ import java.util.Scanner;
 
 */
 public class TaskB1 {
-       public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner((System.in));
         int x = scanner.nextInt();
         boolean m = ((x % 400 == 0) || (x % 4 == 0) && (x % 100 != 0));

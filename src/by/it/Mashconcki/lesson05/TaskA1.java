@@ -24,6 +24,19 @@ package by.it.Mashconcki.lesson05;
 */
 
 
+import java.util.Scanner;
+
 public class TaskA1 {
+    public static void main(String[] args) {
+        int [] arr=new int[10];
+        Scanner scanner=new Scanner(System.in);
+        for (int i=arr.length-1;i>=0;i--){
+            arr[i]=scanner.nextInt();
+        }
+        for (int element : arr){
+            System.out.println(element);
+        }
+    }
+
 
 }

@@ -36,7 +36,7 @@ package by.it.Mashconcki.lesson04;
 За месяц 14 начислено $0.0
 
 */
-
+//решать с помощью кейсов
 
 import java.util.Scanner;
 
