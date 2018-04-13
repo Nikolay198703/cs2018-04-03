@@ -24,15 +24,13 @@ END
 */
 public class TaskA2 {
     public static void main(String[] args) {
-        ArrayList<String> list=new ArrayList<>();
-        Scanner scanner=new Scanner(System.in);
-        //for (int i=1;i<list.size(); i++)
-        while (true)
-        {
-           String s=scanner.next();
-                       if (s.equals("END"))
-                           break;
-                        list.add(s);
+        ArrayList<String> list = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            String s = scanner.next();
+            if (s.equals("END"))
+                break;
+            list.add(s);
 
         }
         System.out.println(list);
